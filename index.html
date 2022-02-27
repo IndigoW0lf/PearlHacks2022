@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breaking Through</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right nbar"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Home</a>
+            <a href="#Mentor" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Mentor Match</a>
+            <a href="#Resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Resources</a>
+            
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#Mentor" class="w3-bar-item w3-button" onclick="toggleFunction()">Mentor Match</a>
+            <a href="#Resources" class="w3-bar-item w3-button" onclick="toggleFunction()">Resources</a>
+           
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BREAKING THROUGH</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">BREAKING THROUGH</h3>
+        <p class="w3-center"><em>Helping women to break through barriers</em></p>
+        <p> As women in tech, we encounter a unique set of challenges throughout our careers. It can be difficult to deal with 
+            imposter syndrome when starting a new job. It is challenging to find your voice within a male-dominated workspace. 
+            Thats when four full-stack development students came together to try and address this barrier. Breaking Through is a safe space 
+            for women to gather resources, share stories, and find mentors. 
+        </p>
+        <p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" 
+                class="w3-round w3-image w3-opacity" alt="woman typing at computer"
+                    width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p><br> The experiences that we go through as women in tech are not unique to us alone. Each one of us has experienced 
+                   negativity and doubt along our journey. Whether you are just starting your journey into tech, or have had a long 
+                   career in the industry, your experiences are valuable and should be shared. 
+                   <br><br>
+                   <b>You are not alone. We are better together.</b>
+                </p>
+            </div>
+        </div>
+      
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xlarge w3-text-white w3-wide">BREAKING THROUGH</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="Resources">
+        <h3 class="w3-center">Resources</h3>
+        <p class="w3-center"><em>Here are some resources for different topics!</em>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <a href="find_your_voice.html" target="_blank">
+                <img src="https://i.imgur.com/tWX24S3.png" style="width:100%"  class="w3-hover-opacity"
+                    alt="Find Your Voice">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+             <a href="imposter_syndrome.html" target="_blank">
+                    <img src="https://i.imgur.com/NJZHDnH.png" style="width:100%" class="w3-hover-opacity"
+                    alt="Imposter Syndrome">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+                <a href="get_paid.html" target="_blank">
+                <img src="https://i.imgur.com/YzTYrtJ.png" style="width:100%" class="w3-hover-opacity"
+                    alt="Get Paid">
+                </a>
+            </div>
+
+       
+            <div class="w3-col m3">
+                <a href="LGBTQ.html" target="_blank">
+                <img src="https://i.imgur.com/ZF4b27t.png" style="width:100%" class="w3-hover-opacity" 
+                alt="LGBTQ">
+                </a>
+            </div>
+            <div class="w3-row-padding w3-center w3-section">
+        </div>
+            <div class="w3-col m3">
+                <a href="disability.html" target="_blank">
+                <img src="https://i.imgur.com/tYtBM2M.png" style="width:100%" class="w3-hover-opacity"
+                    alt="Disability">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+                <a href="BIPOC.html" target="_blank">
+                <img src="https://i.imgur.com/8iFxvd4.png" style="width:100%" class="w3-hover-opacity"
+                    alt="BIPOC">
+                </a>
+            </div>
+
+            <div class="w3-col m3">
+                <a href="marginalized.html" target="_blank">
+                <img src="https://i.imgur.com/2GZgp8b.png" style="width:100%" class="w3-hover-opacity"
+                    alt="Marginalized">
+                </a>
+            </div>
+            <div class="w3-col m3">
+                <a href="employment.html" target="_blank">
+                <img src="https://i.imgur.com/0MbyGpp.png" style="width:100%" class="w3-hover-opacity"
+                    alt="Employment">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div id="Mentor" class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">MENTOR MATCH</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">LET'S MATCH</h3>
+        <p class="w3-center w3-large">Send us a message:</p>
+        <div style="margin-top:48px">
+          
+          <br>
+          <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="LinkedIn Profile" required name="LinkedIn Profile"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+              <button class="w3-button w3-black" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </p>
+          </form>
+          
+        </div>
+      </div>
+
+    
+    <!-- Footer end. -->
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
